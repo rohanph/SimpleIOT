@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: Joy.ApplicationSecurity-VSTS.custom-build-release-task.HCLAppScan@1
+- task: HCLAppScan@1
   inputs:
     AppSecTestService: 'Rohan_ASOC_Prod'
     applications: '9b6878b0-fd8a-451b-ad75-23860e5e29c3'
