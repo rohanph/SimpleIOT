@@ -1,4 +1,10 @@
 # Starter pipeline
+- task: HCLAppScan@1
+  inputs:
+    AppSecTestService: 'Rohan_ASOC_Prod'
+    applications: '9b6878b0-fd8a-451b-ad75-23860e5e29c3'
+    scanname: 'Pilot_Up_Test'
+    scantype: 'static'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
