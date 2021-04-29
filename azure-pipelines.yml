@@ -9,13 +9,13 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
+- trigger:
 - master
 
-pool:
+- pool:
   vmImage: ubuntu-latest
 
-steps:
+- steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
