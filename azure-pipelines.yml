@@ -1,5 +1,5 @@
 # Starter pipeline
-- task: HCLAppScan@1
+- task: HCLAppScan@12
   inputs:
     AppSecTestService: 'Rohan_ASOC_Prod'
     applications: '9b6878b0-fd8a-451b-ad75-23860e5e29c3'
@@ -31,14 +31,5 @@ steps:
     scanname: 'Y4'
     scantype: 'static'
 
-- task: HCL AppScan Enterprise@2
-  inputs:
-    ServiceEndPointAse: 'ASE_Creds_Win37_2021'
-    jobName: 'UY5'
-    folderId: 12
-    templateId: 7
-    testPolicyId: 8
-    applicationId: 1
-    loginMethod: 'None'
-    optimization: 'Fastest'
+
 
