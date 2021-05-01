@@ -17,9 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: HCLAppScan@1
+- task: HCLAppScanOnCloud@1
   inputs:
     AppSecTestService: 'Rohan_ASOC_Prod'
     applications: '9b6878b0-fd8a-451b-ad75-23860e5e29c3'
-    scanname: 'OldYamltonew'
-    scantype: 'static'
+    scanname: 'One Test'
+    scantype: 'mobile'
+    appFile: 'demo.apk'
