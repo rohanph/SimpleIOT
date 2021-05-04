@@ -14,6 +14,12 @@
   displayName: 'Run a multi-line script'
 
 
+- task: HCLAppScanOnCloud@2
+  inputs:
+    AppSecTestService: 'Rohan_ASOC_Prod'
+    applications: '1d4883a6-1e37-4a79-81a9-7b2b4230fbf5'
+    scanname: 'NewymlSoc'
+    scantype: 'static'
 
 
 
